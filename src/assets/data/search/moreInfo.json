@@ -1,0 +1,55 @@
+{
+	"moreInfo": [{
+		"title": "Lorem Ipsum is simple dummy text of the printing and type something",
+		"managementTeam": "airTMD Team",
+		"awards": "Microsoft Golden Partner",
+		"certified": "Lorem Ipsum is simple dummy text of the printing",
+		"serviceDescription": "Lorem Ipsum is simple dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it to make a typespecimen book",
+		"equipments": [{
+			"title": "Product developing consulting ",
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/TopServices/0%20(25).png",
+			"description": "Enim Lobortis Scelerisque Eu Ultrices TemporPraesent Consequat Integer Viverra Lacinia Neque phasellus fermentum tempus. Non velit posuere montes interdum eros nulla montes cum aenean nisi dignissim fermentum montes sodales ac interdum, non tempor a aliquam rhoncus cras metus leo facilisis fermentum. Dignissim. Laoreet nec metus duis conubia phasellus ac nonummy magna augue convallis magnis tempus potenti feugiat feugiat Egestas, ut Interdum tempus nibh maecenas nisi nullam suscipit pharetra penatibus accumsan pharetra nisi vivamus nisl proin nonummy malesuada sit vulputate ridiculus vivamus sed mattis dignissim dis penatibus, natoque mollis euismod. Non posuere tempor taciti penatibus fusce eros iaculis risus nulla fermentum egestas elit, rutrum rutrum pulvinar quis habitasse eleifend habitant Velit."
+		  },
+		  {
+			"title": "Existing Assets activating",
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/TopServices/0%20(20).png",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+		  },
+		  {
+			"title": "social resource connecting",
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/TopServices/0%20(13).png",
+			"description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+			},
+			{
+			"title": "Product developing consulting ",
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/TopServices/0%20(16).png",
+			"description": "Enim Lobortis Scelerisque Eu Ultrices TemporPraesent Consequat Integer Viverra Lacinia Neque phasellus fermentum tempus. Non velit posuere montes interdum eros nulla montes cum aenean nisi dignissim fermentum montes sodales ac interdum, non tempor a aliquam rhoncus cras metus leo facilisis fermentum. Dignissim. Laoreet nec metus duis conubia phasellus ac nonummy magna augue convallis magnis tempus potenti feugiat feugiat Egestas, ut Interdum tempus nibh maecenas nisi nullam suscipit pharetra penatibus accumsan pharetra nisi vivamus nisl proin nonummy malesuada sit vulputate ridiculus vivamus sed mattis dignissim dis penatibus, natoque mollis euismod. Non posuere tempor taciti penatibus fusce eros iaculis risus nulla fermentum egestas elit, rutrum rutrum pulvinar quis habitasse eleifend habitant Velit."
+		  },
+		  {
+			"title": "Existing Assets activating",
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/TopServices/0%20(5).png",
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+		  }
+			
+		],
+		"addressess": [{
+			"title": "Cutting Service",
+			"location": "Bangalore, Karnataka,St Marks",
+			"fax": "5656565",
+			"phone":"9544476777"
+		},
+		{
+			"title": "Partner Address 2",
+			"location": "Mangalore, Karnataka",
+			"fax": "5656565",
+			"phone":"9544476777"
+		},
+		{
+			"title": "Partner Address 3",
+			"location": "Kannur, Kerala, Iritty",
+			"fax": "5656565",
+			"phone":"8867659683"
+		}
+	]
+	}]
+}

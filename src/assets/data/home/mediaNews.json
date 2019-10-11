@@ -1,0 +1,35 @@
+{
+	"mediaNews": [{
+			"imageURL": "http://180.151.39.131:2222/QJubilation/images/medianews/MediaNews1.jpg",
+			"url":"http://www.google.com"
+		},
+		{
+			"imageURL": "http://180.151.39.131:2222/QJubilation/images/medianews/MediaNews2.jpg",
+			"url":"http://www.google.com"
+		},
+		{
+			"imageURL": "http://180.151.39.131:2222/QJubilation/images/medianews/MediaNews3.jpg",
+			"url":"http://www.google.com"
+		},
+		{
+			"imageURL": "http://180.151.39.131:2222/QJubilation/images/medianews/MediaNews4.jpg",
+			"url":"http://www.google.com"
+		},
+		{
+			"imageURL": "http://180.151.39.131:2222/QJubilation/images/medianews/MediaNews5.jpg",
+			"url":"http://www.google.com"
+		},
+		{
+			"imageURL": "http://180.151.39.131:2222/QJubilation/images/medianews/MediaNews6.jpg",
+			"url":"http://www.google.com"
+		},
+		{
+			"imageURL": "http://180.151.39.131:2222/QJubilation/images/medianews/MediaNews7.jpg",
+			"url":"http://www.google.com"
+		},
+		{
+			"imageURL": "http://180.151.39.131:2222/QJubilation/images/medianews/MediaNews8.jpg",
+			"url":"http://www.google.com"
+		}
+	]
+}

@@ -1,0 +1,84 @@
+.star_buttons {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.radio_buttons mat-radio-button {
+  margin-left: 25px;
+}
+
+mat-hint {
+  color: black;
+}
+
+.seller-feedback-container mat-dialog-content {
+  margin: 0px;
+  padding: 10px;
+}
+
+.seller-feedback-container .title-banner {
+  padding: 0px 10px;
+  line-height: 2;
+}
+
+.seller-feedback-container mat-dialog-actions {
+  margin: 20px 0px 0px;
+  background-color: #f3f3f4;
+  padding-right: 10px;
+}
+
+.seller-feedback-containerr mat-dialog-content {
+  margin: 20px 0px 0px;
+  background-color: #f3f3f4;
+  padding-right: 10px;
+  
+}
+
+.order_image {
+  height: 240px;
+}
+
+.key {
+  font-weight: 600;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+.text_area {
+  resize: none;
+}
+
+.star {
+  margin-right: 6px;
+}
+
+.fa-star {
+  color: black;
+}
+
+hr{
+  width:100%
+}
+
+.odi{
+  background: gold;
+  padding: 10px;
+}
+
+.test{
+  margin-top: 10px;
+  padding: 6px;
+}
+
+.tt{
+  margin-top: 12px;
+  padding: 6px;
+  background: greenyellow;
+}
+.totalLabel {
+  color: cadetblue;
+  
+}

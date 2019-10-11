@@ -1,0 +1,16 @@
+<form>
+  <mat-form-field>
+    <input type="text" matInput [formControl]="myControl"
+      [matAutocomplete]="auto">
+  </mat-form-field>
+
+  <mat-autocomplete #auto="matAutocomplete" autoActiveFirstOption>
+    <mat-option *ngFor="let option of filteredOptions | async" [value]="option">{{option}}</mat-option>
+  </mat-autocomplete>
+</form>
+<mat-chip-list>
+  <mat-chip>One fish</mat-chip>
+  <mat-chip>Two fish</mat-chip>
+  <mat-chip color="primary" selected="true">Primary fish</mat-chip>
+  <mat-chip color="accent" selected="true">Accent fish</mat-chip>
+</mat-chip-list>

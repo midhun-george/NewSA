@@ -1,0 +1,161 @@
+<form #feedbackForm="ngForm" (ngSubmit)="feedbackForm.valid" class="seller-feedback-container userprofile">
+  <div fxLayout="row" class="popUpHeaderContainer">
+    <span fxLayoutAlign="start" class="mat-subheading-2 popUpHeaderTitle">Update Details</span>
+    <span fxFlex fxLayoutAlign="end end">
+        <button mat-icon-button matDialogClose="true" class="popUpHeaderCloseIcon">
+          <mat-icon>close</mat-icon>
+        </button>
+      </span>
+  </div>
+  <mat-dialog-content>
+    <div fxLayout="row" fxLayoutGap="10px" [fxHide.xs]="true">
+      <img src="{{data.item.image ||'./assets/img/servicethumbnailuser.jpg' }}" class="order_image">
+      <div fxLayout="column" style="width:80%">
+        <span class="mat-body-1 primary-color">{{data.title}}</span>
+        <span class="mat-caption" [clamp]="4" [innerHTML]="data.item.description" title="{{data.description}}"></span>
+        <div style="height:10px"></div>
+        <div class="odi">
+          <span class="mat-caption key" i18n="@@acceptedAmount">ODI</span>
+          <hr/>
+          <div fxLayout="row" fxLayoutGap="30px" style="color:darkmagenta">
+            <div fxLayout="column">
+              <span> Match</span>
+              <span class="mat-caption">{{filterArray.ODI.match}}</span>
+            </div>
+            <div fxLayout="column">
+              <span class="mat-caption key" i18n="@@partnerName">Runs </span>
+              <span class="mat-caption">{{data.item.ODI.runs}}</span>
+            </div>
+            <div fxLayout="column">
+              <span class="mat-caption key" i18n="@@partnerName">Average </span>
+              <span class="mat-caption">{{data.item.ODI.avg}}</span>
+            </div>
+            <div fxLayout="column">
+              <span class="mat-caption key" i18n="@@partnerName">Top </span>
+              <span class="mat-caption">{{data.item.ODI.top}}</span>
+            </div>
+            <div fxLayout="row" fxFlex fxLayoutAlign="end center">
+              <button mat-raised-button (click)="addDetails('ODI')">Add Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="test">
+          <span class="mat-caption key" i18n="@@acceptedAmount" style="margin-top:20px;">Test</span>
+          <hr/>
+          <div fxLayout="row" fxLayoutGap="30px">
+            <div fxLayout="column">
+              <span>Match</span>
+              <span class="mat-caption">{{filterArray.Test.match}}</span>
+            </div>
+            <div fxLayout="column">
+              <span class="mat-caption key" i18n="@@partnerName">Runs </span>
+              <span class="mat-caption">{{data.item.Test.runs}}</span>
+            </div>
+            <div fxLayout="column">
+              <span class="mat-caption key" i18n="@@partnerName">Average </span>
+              <span class="mat-caption">{{data.item.Test.avg}}</span>
+            </div>
+            <div fxLayout="column">
+              <span class="mat-caption key" i18n="@@partnerName">Top </span>
+              <span class="mat-caption">{{data.item.Test.top}}</span>
+            </div>
+            <div fxLayout="row" fxFlex fxLayoutAlign="end center">
+              <button mat-raised-button (click)="addDetails('Test')">Add Details</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tt">
+          <span class="mat-caption key" i18n="@@acceptedAmount" style="margin-top:20px;">Twenty 20</span>
+          <hr/>
+          <div fxLayout="row" fxLayoutGap="30px" *ngIf="filterArray.TT" style="color: blueviolet;">
+            <div fxLayout="column">
+              <span> Match</span>
+              <span class="mat-caption">{{filterArray?.TT.match}}</span>
+            </div>
+            <div fxLayout="column">
+              <span class="mat-caption key" i18n="@@partnerName">Runs </span>
+              <span class="mat-caption">{{data.item?.TT.runs}}</span>
+            </div>
+            <div fxLayout="column">
+              <span class="mat-caption key" i18n="@@partnerName">Average </span>
+              <span class="mat-caption">{{data.item?.TT.avg}}</span>
+            </div>
+            <div fxLayout="column">
+              <span class="mat-caption key" i18n="@@partnerName">Top </span>
+              <span class="mat-caption">{{data.item?.TT.top}}</span>
+            </div>
+            <div fxLayout="row" fxFlex fxLayoutAlign="end center">
+              <button mat-raised-button (click)="addDetails('T20')">Add Details</button>
+            </div>
+          </div>
+        </div>
+        <span *ngIf="!filterArray.TT" style="color:red">Not Available</span>
+      </div>
+    </div>
+    <div class="detail-add-section" *ngIf="addDetailsBool">
+      <span class="mat-body-2" i18n="@@selectPayment">Select Format</span>
+      <div style="height:5px"></div>
+      <div fxLayout="row">
+        <mat-radio-group class="radio_buttons" [(ngModel)]="format" name="format" fxFlex>
+          <mat-radio-button value="bat" (change)="SelectedFormat('bat')">Batting</mat-radio-button>
+          <mat-radio-button value="bowl" (change)="SelectedFormat('bowling')">Bowling</mat-radio-button>
+        </mat-radio-group>
+        <span fxFlex *ngIf="balls && strikeRateToday" > {{choosed}} Details</span>
+      </div>
+    </div>
+    <div style="height:10px"></div>
+
+    <div *ngIf="format=='bat'">
+      <div fxLayout.xs=column fxLayoutGap="10px" class="form-group">
+        <form #paymentForm="ngForm" (ngSubmit)="paymentForm.valid && updateData()" fxFlex>
+          <div fxLayout="row" fxLayoutGap="20px">
+            <div fxFlex="40%">
+              <mat-input-container floatPlaceholder="always" class="input_container">
+                <input class="form-control" (blur)="updateRuns()" matInput [(ngModel)]="runs" name="runs" type="text" required placeholder="Runs Scored"
+                  maxlength="30">
+                <!-- <mat-error *ngIf="runs.invalid " class="alert alert-danger">
+              <mat-error *ngIf="runs.errors.required">
+                Please Enter Bank Code
+              </mat-error>
+            </mat-error> -->
+              </mat-input-container>
+            </div>
+            <div *ngIf="runs" fxFlexAlign="center">
+              <span class="totalLabel">Total Runs: </span><span class="totalValue">{{updatedRuns}}</span>
+              <span></span>
+            </div>
+          </div>
+          <div fxLayout="row" fxLayoutGap="20px">
+            <div fxFlex="40%">
+              <mat-input-container floatPlaceholder="always" class="input_container">
+                <input matInput (blur)="getStrikeRateDetails()" [disabled]="!runs" [(ngModel)]="balls" name="balls" type="text" placeholder="Balls Faced"
+                  required maxlength="30">
+              </mat-input-container>
+            </div>
+            <div *ngIf="balls && strikeRateToday" fxFlexAlign="center">
+                <span class="totalLabel">Strike Rate Today:</span><span class="totalValue">{{strikeRateToday | number : '1.2'}}</span>
+              <span></span>
+            </div>
+
+            <div *ngIf="balls && strikeRateToday" fxFlexAlign="center">
+                <span class="totalLabel">Overall Strike Rate:</span><span class="totalValue">{{updatedStrikeRate | number : '1.2'}}</span>
+                <span></span>
+              </div>
+          </div>
+          <div>
+            <button mat-raised-button color="primary" type="submit">ADD</button>
+            <button mat-raised-button type="reset">CLEAR</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <br>
+    <br>
+
+  </mat-dialog-content>
+  <mat-dialog-actions fxLayoutAlign.gt-xs="end end" fxLayoutAlign.xs="center center" class="airtmd-green-theme">
+    <button mat-raised-button color="primary" *ngIf="data.action=='send'" i18n="@@submit">SUBMIT</button>
+    <button mat-raised-button matDialogClose i18n="@@cancel">CANCEL</button>
+  </mat-dialog-actions>
+</form>

@@ -1,0 +1,77 @@
+<div fxLayout="column">
+  <div fxFlex>
+    <ngx-slick class="carousel" #slickModal="slick-modal" [config]="carouselConfig" (afterChange)="afterChange($event)">
+      <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+        <img src="{{ slide.img }}" alt="" width="100%">
+      </div>
+    </ngx-slick>
+  </div>
+  <div fxFlex="nogrow" fxLayout="row nowrap" fxLayout.lt-md="column">
+    <mat-card class="endorsement-container" [ngStyle.lt-md]="{'width': 'inherit'}" [ngStyle.gt-md]="{'width': '50%'}">
+      <div fxLayout="row">
+        <div fxFlex>
+          <div fxLayout="column" class="endorsement-content" align="center">
+            <div class="endorsement-img endorsement1">
+                <img src="../assets/img/about.png" style="height: 100px;">
+            </div>
+
+            <div class="mat-body-2 endorsement-title" [fxShow.gt-md]="true" [fxHide]="true" i18n="@@productdeveloping">{{"About Cricket South Africa" |uppercase}} </div>
+            <div class="mat-body-1 endorsement-title" [fxShow.md]="true" [fxHide]="true" i18n="@@productdeveloping">PRODUCT DEVELOPING CONSULTING</div>
+            <div class="mat-body-1 endorsement-title" [fxShow.xs]="true" [fxHide]="true" i18n="@@productdeveloping">PRODUCT DEVELOPING CONSULTING</div>
+
+            <div class="mat-caption endorsement-description">
+              <span class="text-overflow" i18n="@@endorsementdescription1"> Cricket South Africa (CSA), an affiliate of the South African Sports Confederation and Olympic Committee (SASCOC) and a full member of the International Cricket Council (ICC), is the national governing body for the sport of cricket in South Africa and administers all aspects of South African cricket, men and women, both in the professional and amateur spheres.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="endorsement-seperator"></div>
+    </mat-card>
+
+    <mat-card class="endorsement-container" [ngStyle.lt-md]="{'width': 'inherit'}" [ngStyle.gt-md]="{'width': '50%'}">
+      <div fxLayout="row">
+        <div fxFlex>
+          <div fxLayout="column" class="endorsement-content" align="center">
+            <div class="endorsement-img endorsement2">
+                <img src="../assets/img/vision.jpg" style="height: 100px;">
+            </div>
+
+            <div class="mat-body-2 endorsement-title" [fxShow.gt-md]="true" [fxHide]="true" i18n="@@existingassets">{{"Vision & Mission" | uppercase}}</div>
+            <div class="mat-body-1 endorsement-title" [fxShow.md]="true" [fxHide]="true" i18n="@@existingassets">EXISTING ASSETS ACTIVATING</div>
+            <div class="mat-body-1 endorsement-title" [fxShow.xs]="true" [fxHide]="true" i18n="@@existingassets">EXISTING ASSETS ACTIVATING</div>
+
+            <div class="mat-caption endorsement-description">
+              <span class="text-overflow" i18n="@@endorsementdescription2">Cricket South Africa's vision is to make cricket a truly national sport of winners.
+                
+                This has two elements to it:
+                
+                To ensure that cricket is supported by the majority of South Africans, and available to all who want to play it.
+                To pursue excellence at all levels of the game.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="endorsement-seperator"></div>
+    </mat-card>
+
+    <mat-card class="endorsement-container" [ngStyle.lt-md]="{'width': 'inherit'}" [ngStyle.gt-md]="{'width': '50%'}">
+      <div fxLayout="row">
+        <div fxFlex>
+          <div fxLayout="column" class="endorsement-content" align="center">
+            <div class="endorsement-img endorsement3">
+                <img src="../assets/img/South_Africa.png" style="height: 100px;">
+            </div>
+
+            <div class="mat-body-2 endorsement-title" [fxShow.gt-md]="true" [fxHide]="true" i18n="@@socialresource">{{"Cricket Operations" | uppercase }}</div>
+            <div class="mat-body-1 endorsement-title" [fxShow.md]="true" [fxHide]="true" i18n="@@socialresource">SOCIAL RESOURCE CONNECTING</div>
+            <div class="mat-body-1 endorsement-title" [fxShow.xs]="true" [fxHide]="true" i18n="@@socialresource">SOCIAL RESOURCE CONNECTING</div>
+
+            <div class="mat-caption endorsement-description">
+              <span class="text-overflow" i18n="@@endorsementdescription3">The starting point is schools cricket where schools are classified according to the support systems available to them such as facilities, coaching and standard of play. As the majority of schools do not have the necessary support structures in place, CSA offers various regional and district programmes to overcome this disability. This includes the Hubs system, Regional Performance Centres and a link to the CSA High Performance Pipeline. </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </mat-card>
+  </div>
+</div>

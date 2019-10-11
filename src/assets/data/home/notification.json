@@ -1,0 +1,75 @@
+{
+	"notifications": [{
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/Testimonials/Testimonial1.jpg",
+			"description": "We lost an important file because of an accidental deletion and we didn?t have a backup copy for our client presentation. After a phone call to one of the professionals at airTMD, the file was safely recovered and the day was saved. I don?t know what we would have done without the timely response and expertise of airTMD.",
+			"name": "Nishanth S",
+			"emailID":"nishanth.s@quadwave.com",
+			"status": "unread",
+			"date":"Oct 13,2017"
+		},
+		{
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/Testimonials/Testimonial2.jpg",
+			"description": "The professionals at airTMD are knowledgeable and experienced in the IT industry. We can always trust them to provide the most efficient solutions and highest quality products to resolve our technology problems. With airTMD by our side, we have the confidence to continue growing our business.",
+			"name": "Rinto",
+			"emailID":"rinto@quadwave.com",
+			"status": "read",
+			"date":"Oct 12,2017"
+		},
+		{
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/Testimonials/Testimonial3.jpg",
+			"description": "Since airTMD began managing our technology, there has been a significant reduction in server downtime resulting in increased productivity and enhanced efficiency. The professionals at airTMD really understood the needs of our business and created effective solutions to improve our overall network. Thanks to airTMD, our IT is now working the way it should be.",
+			"name": "Manu S",
+			"emailID":"manu.s@quadwave.com",
+			"status": "unread",
+			"date":"Oct 13,2017"
+		},
+		{
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/Testimonials/Testimonial4.jpg",
+			"description": "It was difficult to find an IT service provider for our unique business, but well worth the wait. We?ve worked with airTMD now for several years and trust their team to meet our IT needs. Throughout their time with us airTMD has provided consistent quality solutions and service, helping our business to move forward.",
+			"name": "Jesse",
+			"emailID":"jesse@quadwave.com",
+			"status": "read",
+			"date":"Oct 10,2017"
+		},
+		{
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/Testimonials/Testimonial5.jpg",
+			"description": "The professionals at airTMD manage our technology 24/7/365. They provide nonstop network support so we can focus on more important business matters. If you want an IT service provider that?s always there for you, we highly recommend the experts at airTMD.The professionals at airTMD manage our technology 24/7/365. They provide nonstop network support so we can focus on more important business matters. If you want an IT service provider that?s always there for you, we highly recommend the experts at airTMD.The professionals at airTMD manage our technology 24/7/365. They provide nonstop network support so we can focus on more important business matters. If you want an IT service provider that?s always there for you, we highly recommend the experts at airTMD.",
+			"name": "Sanjay",
+			"emailID":"sanjay@quadwave.com",
+			"status": "unread",
+			"date":"Oct 10,2017"
+		},
+		{
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/Testimonials/Testimonial6.jpg",
+			"description": "As a small business owner, I never thought we could afford the services of a professional IT service provider. But the technology solutions at airTMD were reasonably priced and well worth the IT investment. With the help of airTMD, we actually save money with less server downtime and more time to grow our business.",
+			"name": "Jennifer",
+			"emailID":"jennifer@quadwave.com",
+			"status": "unread",
+			"date":"Oct 13,2017 "
+		},
+		{
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/Testimonials/Testimonial4.jpg",
+			"description": "It was difficult to find an IT service provider for our unique business, but well worth the wait. We?ve worked with airTMD now for several years and trust their team to meet our IT needs. Throughout their time with us airTMD has provided consistent quality solutions and service, helping our business to move forward.",
+			"name": "Jesse",
+			"emailID":"jesse@quadwave.com",
+			"status": "read",
+			"date":"Oct 10,2017"
+		},
+		{
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/Testimonials/Testimonial5.jpg",
+			"description": "The professionals at airTMD manage our technology 24/7/365. They provide nonstop network support so we can focus on more important business matters. If you want an IT service provider that?s always there for you, we highly recommend the experts at airTMD.The professionals at airTMD manage our technology 24/7/365. They provide nonstop network support so we can focus on more important business matters. If you want an IT service provider that?s always there for you, we highly recommend the experts at airTMD.The professionals at airTMD manage our technology 24/7/365. They provide nonstop network support so we can focus on more important business matters. If you want an IT service provider that?s always there for you, we highly recommend the experts at airTMD.",
+			"name": "Sanjay",
+			"emailID":"sanjay@quadwave.com",
+			"status": "unread",
+			"date":"Oct 10,2017"
+		},
+		{
+			"imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/Testimonials/Testimonial6.jpg",
+			"description": "As a small business owner, I never thought we could afford the services of a professional IT service provider. But the technology solutions at airTMD were reasonably priced and well worth the IT investment. With the help of airTMD, we actually save money with less server downtime and more time to grow our business.",
+			"name": "Jennifer",
+			"emailID":"jennifer@quadwave.com",
+			"status": "unread",
+			"date":"Oct 13,2017 "
+		}
+	]
+}

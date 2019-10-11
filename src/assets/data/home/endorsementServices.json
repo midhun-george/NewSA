@@ -1,0 +1,18 @@
+{
+  "endorsementServices": [{
+      "title": "Product developing consulting ",
+      "imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/Top3services/ExistingAssetsActivating.jpg",
+      "description": "Corporate with consultant in specialty of product development. Assist on developing the products and other integrated services. Lessen the time for developing the products and the reduce the cost for communication between customers and manufacturers."
+    },
+    {
+      "title": "Existing Assets activating",
+      "imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/Top3services/ProductDevelopmementConsulting.jpg",
+      "description": "Through the multi-share, production, and orders, we increase usage rate of the facilitiesIn this way, we get the financial resources for equipments’ maintenances ."
+    },
+    {
+      "title": "social resource connecting",
+      "imageURL": "https://xcalibur.agilityclouds.com:8080/Resources/images/Top3services/Social-Resource-Connecting.jpg",
+      "description": "Equipment's are expensive to own, and when it sits idle, it doesn’t contribute to your own bottom line. Put the idle equipment to work to let people have chance to be benefited from those facilities."
+    }
+  ]
+}

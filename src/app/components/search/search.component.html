@@ -1,0 +1,55 @@
+<div fxLayout="column" fxLayoutGap="10px" style="margin-top:10px">
+  <div fxLayout="row" fxLayoutGap="10px">
+    <div class="sort-section" fxLayout="column" fxFlex="nogrow">
+      <button mat-raised-button [matMenuTriggerFor]="menuRef" class="sort-button">{{item}}
+            <mat-icon color="primary">arrow_drop_down</mat-icon>
+          </button>
+      <mat-menu fxFlex #menuRef="matMenu" class="content-menu">
+        <button mat-menu-item *ngFor="let content of contentTypes" [value]="content?.value" (click)="categoryMenuClick(content)">
+              {{ content?.viewValue }}
+            </button>
+      </mat-menu>
+    </div>
+
+    <!-- Search Section -->
+
+    <div fxFlex fxFlex.lt-md=63 fxFlex.sm=67 class="search-text" ngClass.xs="search-text-nomargin">
+      <form>
+        <div fxFlex fxFlex.lt-md=89>
+          <input placeholder="Search" fxFlex class="SearchStyle" [(ngModel)]="searchVal" #searchItem name="search">
+        </div>
+        <div fxFlex="100px" fxFlex.lt-md="40px" fxFlex.sm="40px" align="end">
+          <button mat-raised-button (click)="search(searchItem.value)" ngClass.xs="buttonStyleMob" class="sort-button search-button buttonStyle"
+            color="primary">
+              <mat-icon>search</mat-icon>
+              <span [fxShow.lt-md]="false" i18n="@@search">Search</span>
+            </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="grid-style" fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign.lt-md="center center">
+    <!-- <div fxFlex fxLayoutAlign="center center" class="no-items" *ngIf="(searchList | filterPipe:filterArr).length==0">No Records Found</div> -->
+
+    <div *ngFor="let item of searchList | paginate: { itemsPerPage:itemsPerpage, currentPage: page }" class="search-items" ngClass.xs="search-items-xs">
+
+      <mat-card fxLayout="column" class="grid-mat-card" ngClass.xs="grid-mat-card-xs">
+        <img mdImgCard src="{{item.image || defaultImage}}" [style.xs]="{'height.px':325}" (click)="SearchDetails(item)">
+        <mat-card-content fxLayout="column" fxLayoutGap="10px" class="grid-card-content">
+
+          <div fxLayout="row">
+            <span class="mat-subheading title-style" title="{{item.title}}" [clamp]="1" fxFlex="50">{{item.title}}</span>
+            <span fxLayoutAlign="end center" fxFlex="10" fxFlex="50" style="cursor:pointer;margin-left: 5px; color:salmon" (click)="MoreInfo(item)">
+                      More Info
+                  </span>
+          </div>
+          <div fxLayout="row">
+            <span class="mat-caption title-style" title="{{item.Batting}}" [clamp]="1" fxFlex="50">{{item.Batting}}</span>
+            <span class="mat-caption title-style" title="{{item.dob}}" [clamp]="1" fxFlex="50">{{item.dob}}</span>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,76 @@
+{
+    "items": [{
+            "sno": 1,
+            "date": "03/01/2017",
+            "servicename": "Service one",
+            "username": "Bose",
+            "finalAmount": 33.09,
+            "exchangerate": 30.22,
+            "finalAmountTMD": 1000,
+            "paymentmethod": "Bank transfer",
+            "action": "Accept",
+			"status":"Service Completed",
+            "transactionid": "transaction 01",
+            "details": "details"
+        },
+        {
+            "sno": 2,
+            "date": "01/09/2017",
+            "servicename": "Service two",
+            "username": "Arun",
+            "finalAmount": 66.18,
+            "exchangerate": 30.22,
+            "finalAmountTMD": 2000,
+            "paymentmethod": "Credit card",
+            "action": "Accept",
+			"status":"Service Accepted",
+            "transactionid": "transaction 02",
+            "details": "details"
+
+        }, {
+            "sno": 3,
+            "date": "03/09/2017",
+            "servicename": "Service three",
+            "username": "John D.",
+            "finalAmount": 2144.25,
+            "exchangerate": 2.14,
+            "finalAmountTMD": 1000,
+            "paymentmethod": "Bank transfer",
+            "action": "Accept",
+			"status":"Service Completed",
+            "transactionid": "transaction 03",
+            "details": "details"
+
+        },
+        {
+            "sno": 4,
+            "date": "03/01/2017",
+            "servicename": "Service one",
+            "username": "Bose",
+            "finalAmount": 33.09,
+            "exchangerate": 30.22,
+            "finalAmountTMD": 1000,
+            "paymentmethod": "Bank transfer",
+            "action": "Accept",
+			"status":"Service In Progress",
+            "transactionid": "transaction 01",
+            "details": "details"
+
+        },
+        {
+            "sno": 5,
+            "date": "01/09/2017",
+            "servicename": "Service two",
+            "username": "Arun",
+            "finalAmount": 66.18,
+            "exchangerate": 30.22,
+            "finalAmountTMD": 2000,
+            "paymentmethod": "Credit card",
+            "action": "Accept",
+			"status":"Yet To Start",
+            "transactionid": "transaction 02",
+            "details": "details"
+
+        }
+    ]
+}

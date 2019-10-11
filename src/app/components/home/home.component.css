@@ -1,0 +1,7 @@
+.slick-slide img {
+    display: block;
+    height: 500px !important;
+}
+.current-players img{
+    height:220px !important;
+}

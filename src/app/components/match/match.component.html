@@ -1,0 +1,71 @@
+<div fxFlex>
+  <div fxLayout="column" fxFlex="70%" fxLayoutAlign="start start"
+    fxLayoutGap="10px">
+    <div fxLayout="column" fxLayoutAlign="start start">
+      <mat-tab-group>
+        <mat-tab label="Recent">
+          <div fxFlex>
+            <div fxLayout="column" fxFlex="50%" fxLayoutAlign="start start"
+              fxLayoutGap="10px">
+              <p>Date</p>
+            </div>
+            <div fxLayout="column" fxFlex="50%" fxLayoutAlign="start start"
+              fxLayoutGap="10px">
+              <p>Details</p>
+            </div>
+          </div>
+          <div fxFlex *ngFor="let item of recentArray" class="mat-elevation-z1"
+            style="margin-top:5px">
+            <div fxFlex="30">
+              <p>{{item.date}}</p>
+            </div>
+            <div fxFlex="70">
+              <p>{{item.name}}</p>
+              <p>{{item.opponent}}</p>
+              <p style="color: fuchsia">{{item.result}}</p>
+            </div>
+
+          </div>
+
+        </mat-tab>
+        <mat-tab label="Live">
+            <app-live-scores [searchPart]=false ></app-live-scores>
+
+        </mat-tab>
+        <mat-tab label="Up Coming">
+          <ul class="heroes" *ngFor="let match of UpcomingArr"
+            style="list-style:none">
+            <li fxFlex fxLayout="column" fxLayoutGap="10px">
+              <span class="badge">{{match.name}}</span>
+              <div class="teams">
+                <span style="color: fuchsia">SA vs </span><span>{{match.opponent}}</span>
+              </div>
+              <div class="date">
+                <span><b>{{match.date}}</b></span>
+              </div>
+            </li>
+          </ul>
+        </mat-tab>
+
+        <mat-tab label="Live Scores">
+          <div id="scr">
+              <app-live-scores [searchPart]=true ></app-live-scores>
+          </div>
+        </mat-tab>
+
+
+      </mat-tab-group>
+    </div>
+  </div>
+  
+  <div fxLayout="column" fxFlex="50%"
+    fxLayoutGap="10px">
+    <div class="galcontainer" fxFlex fxLayout="row" fxLayoutAlign="center center">
+      <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+    </div>
+  </div>
+</div>
+<div class="chat-button">
+  <iframe src="https://ltol-b6583.firebaseapp.com/"></iframe>
+  
+</div>

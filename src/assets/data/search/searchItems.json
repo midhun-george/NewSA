@@ -1,0 +1,149 @@
+{
+  "searchItems": [{
+    "id":1,
+    "title": "ABD",
+    "dob": "17 February 1984",
+    "Batting": "Right-handed",
+    "description": "<p>De Villiers was one of the top performers at the 2015 Cricket World Cup scoring 482 runs at an average of 96.0 and strike rate of 144.0 during the tournament. On 27 February 2015,De Villiers scored 162 runs off 66 balls in a match against the West Indies in Pool B of 2015 Cricket World Cup;leading South Africa to their second - highest total in world cup history(408) on the Sydney Cricket Ground.With this feat,he became the record holder for the fastest 50,100 and 150 in One - Day International history.Under the captaincy of De Villiers,South Africa qualified for the semi - finals of the World Cup but lost to New Zealand in the match.De Villiers finished the tournament as the third - highest run - getter with 482 runs behind Martin Guptill and Kumar Sangakkara.At the end of the tournament,he was ranked number 1 in the ICC batsmen rating in One day International cricket and number 3 in the ICC batsmen rating in Test cricket.[25]. < /p>",
+    "Bowling": "Right-arm medium",
+	"birthPlace": "J'bergh",
+	"image":"./assets/img/1.jpg",
+    "Role": "Batsman, wicket-keeper/batsman",
+    "ODI": {
+      "match": 228,
+      "runs": 9522,
+      "avg": 53.30,
+      "top": 176,
+      "balls":9473
+    },
+    "Test": {
+      "match": 110,
+      "runs": 8338,
+      "avg": 50.30,
+      "top": 278,
+      "balls":15549
+    },
+    "TT": {
+      "match": 78,
+      "runs": 1672,
+      "avg": 26.12,
+      "top": 79,
+      "balls":1237
+    }
+  },
+  {
+    "id":2,
+    "title": "QDK",
+    "dob": "17 December 1992",
+    "Batting": "Left-handed",
+    "description": "<p>Quinton de Kock is a South African professional cricketer who plays for the Titans at domestic level and the South African national team. He was named the Cricketer of the Year at Cricket South Africa's 2017 Annual Awards.</p>",
+	"image":"./assets/img/5.jpg",
+    "Role": "Batsman, wicket-keeper/batsman",
+    "birthPlace": "CapeTown",
+    "ODI": {
+      "match": 90,
+      "runs": 3868,
+      "avg": 45.30,
+      "top": 176,
+      "balls":4107
+    },
+    "Test": {
+      "match": 30,
+      "runs": 1752,
+      "avg": 39.81,
+      "top": "129*",
+      "balls":2457
+    }
+  },
+  {
+    "id":3,
+    "title": "Faf du Plessis",
+    "dob": "13 July 1984",
+    "Batting": "Right-handed",
+    "description": "<p>Quinton de Kock is a South African professional cricketer who plays for the Titans at domestic level and the South African national team. He was named the Cricketer of the Year at Cricket South Africa's 2017 Annual Awards.</p>",
+	"image":"./assets/img/2.jpg",
+    "Role": "Batsman",
+    "birthPlace": "Pretoria",
+    "ODI": {
+      "match": 117,
+      "runs": 4379,
+      "avg": 43.79,
+      "top": 185,
+      "balls":5000
+    },
+    "Test": {
+      "match": 48,
+      "runs": 3022,
+      "avg": 45.81,
+      "top": 137,
+      "balls":6000
+    }
+  },
+  {
+    "id":4,
+    "title": "Hashim Mohammad Amla",
+    "dob": "31 March 1983",
+    "Batting": "Right-handed",
+    "description": "<p>Hashim Amla was summoned from domestic team Natal in 2004 seeking to fill the gap in the South African middle-order that looked to rebuild under Graeme Smith. After an unflattering start, it was in his fourth Test outing against New Zealand a year and half following his debut, that he scored a massive 149 to make his mark.</p>",
+	"image":"./assets/img/3.jpg",
+    "Role": "Batsman",
+    "birthPlace": "Durban",
+    "ODI": {
+      "match": 164,
+      "runs": 7535,
+      "avg": 50.23,
+      "top": 159,
+      "balls":5000
+    },
+    "Test": {
+      "match": 48,
+      "runs": 8794,
+      "avg": 48.58,
+      "top": 311,
+      "balls":6000,
+      "100":28,
+      "50":38
+    },
+    "TT": {
+      "match": 43,
+      "runs": 1277,
+      "avg": 34.51,
+      "top": 97,
+      "balls":1237
+    }
+  },
+  {
+    "id":5,
+    "title": "Jean Paul Dumini",
+    "dob": "14 April 1984",
+    "Batting": "left-handed",
+    "description": "<p>Jean-Paul Duminy, often shortened to JP Duminy, (born 14 April 1984) is an international South African cricketer. He is vice-captain of the South Africa T20I team, and is currently standing in as captain, in the absence of the regular captain, Faf du Plessis. He is a left-handed batsman and a part-time right-arm off spin bowler.</p>",
+	"image":"./assets/img/5.jpg",
+    "Role": "Batsman",
+    "birthPlace": "Durban",
+    "ODI": {
+      "match": 177,
+      "runs": 4638,
+      "avg": 37.70,
+      "top": 150,
+      "balls":5000
+    },
+    "Test": {
+      "match": 46,
+      "runs": 2103,
+      "avg": 32.85,
+      "top": 166,
+      "balls":3000,
+      "100":5,
+      "50":8
+    },
+    "TT": {
+      "match": 71,
+      "runs": 1683,
+      "avg": 37.51,
+      "top": 96,
+      "balls":1237
+    }
+  }
+]
+}

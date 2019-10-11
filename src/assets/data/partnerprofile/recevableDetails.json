@@ -1,0 +1,84 @@
+{
+	"items": [{
+			"sno": 1,
+			"date": "03/01/2017",
+			"servicename": "Service one",
+			"serviceDescription": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.",
+			"qutAmount": 1000,
+			"orderedDate": "03/01/2017",
+			"username":"Midhun",
+			"status": "Service Completed",
+			"email":"midhun.g@gmail.com",
+			"details": [{
+					"serialNo": 1,
+					"date": "03/01/2017",
+					"amount": 60,
+					"paymentMethod": "Bank TRansfer",
+					"transactionID": "12345678"
+				},
+				{
+					"serialNo": 2,
+					"date": "03/01/2017",
+					"amount": 600,
+					"paymentMethod": "Bank TRansfer",
+					"transactionID": "12345679"
+				}
+
+			]
+		},
+		{
+			"sno": 2,
+			"date": "03/01/2017",
+			"servicename": "Service  Two",
+			"serviceDescription": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+			"qutAmount": 1000,
+			"orderedDate": "03/01/2017",
+			"username":"Boss",
+			"status": "Service Accepted",
+			"email":"boss.g@gmail.com",
+			"details": [{
+					"serialNo": 1,
+					"date": "03/01/2017",
+					"amount": 60,
+					"paymentMethod": "Bank TRansfer",
+					"transactionID": "12345678"
+				},
+				{
+					"serialNo": 2,
+					"date": "03/01/2017",
+					"amount": 600,
+					"paymentMethod": "Bank TRansfer",
+					"transactionID": "12345679"
+				}
+
+			]
+		},
+		{
+			"sno": 3,
+			"date": "03/01/2017",
+			"servicename": "Service Three",
+			"serviceDescription": "Pretium rhoncus ad rhoncus nullam, enim. Fusce varius elit nec per. Dignissim nulla et Et penatibus non litora malesuada. Tempus dolor tellus platea dignissim sapien dolor Vivamus praesent purus arcu, placerat auctor sem arcu varius sollicitudin dictum parturient augue tempor sem odio magnis vel est lacinia auctor nunc parturient platea eget nisl class porta, non tempor at taciti cubilia ipsum cum ad primis nisl cursus, imperdiet habitasse vitae Eleifend ad ullamcorper sapien lacus augue hendrerit habitant eu cubilia massa placerat Et id curae; curabitur justo parturient et taciti tortor hymenaeos erat sapien risus ante bibendum faucibus massa elementum. Interdum nullam.",
+			"qutAmount": 1000,
+			"username":"John D",
+			"orderedDate": "03/01/2017",
+			"email":"john.g@gmail.com",
+			"status": "Service Completed",
+			"details": [{
+					"serialNo": 1,
+					"date": "03/01/2017",
+					"amount": 60,
+					"paymentMethod": "Bank TRansfer",
+					"transactionID": "12345678"
+				},
+				{
+					"serialNo": 2,
+					"date": "03/01/2017",
+					"amount": 600,
+					"paymentMethod": "Bank TRansfer",
+					"transactionID": "12345679"
+				}
+
+			]
+		}
+	]
+}
